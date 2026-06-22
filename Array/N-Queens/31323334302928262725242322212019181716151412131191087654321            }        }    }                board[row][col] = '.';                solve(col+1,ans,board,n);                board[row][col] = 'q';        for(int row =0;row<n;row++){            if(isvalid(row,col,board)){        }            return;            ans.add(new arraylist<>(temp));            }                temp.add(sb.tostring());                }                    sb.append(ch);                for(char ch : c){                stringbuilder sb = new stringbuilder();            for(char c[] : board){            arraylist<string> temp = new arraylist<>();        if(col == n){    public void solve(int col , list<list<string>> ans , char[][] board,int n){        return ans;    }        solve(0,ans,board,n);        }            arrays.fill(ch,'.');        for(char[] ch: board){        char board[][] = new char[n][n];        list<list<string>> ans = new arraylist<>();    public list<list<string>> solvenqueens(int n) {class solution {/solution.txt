@@ -1,0 +1,34 @@
+            }
+        }
+    }
+
+                board[row][col] = '.';
+                solve(col+1,ans,board,n);
+                board[row][col] = 'Q';
+        for(int row =0;row<n;row++){
+            if(isValid(row,col,board)){
+        }
+            return;
+            ans.add(new ArrayList<>(temp));
+            }
+                temp.add(sb.toString());
+                }
+                    sb.append(ch);
+                for(char ch : c){
+                StringBuilder sb = new StringBuilder();
+            for(char c[] : board){
+            ArrayList<String> temp = new ArrayList<>();
+        if(col == n){
+    public void solve(int col , List<List<String>> ans , char[][] board,int n){
+
+
+        return ans;
+    }
+        solve(0,ans,board,n);
+        }
+            Arrays.fill(ch,'.');
+        for(char[] ch: board){
+        char board[][] = new char[n][n];
+        List<List<String>> ans = new ArrayList<>();
+    public List<List<String>> solveNQueens(int n) {
+class Solution {

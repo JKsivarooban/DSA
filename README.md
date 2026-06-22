@@ -18,7 +18,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| 51 | [N-Queens](./Array/N-Queens/) | Hard |
+| 51 | [N-Queens](./Array/N-Queens/) | Medium |
 
 </details>
 
