@@ -18,6 +18,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| 31 | [Next Permutation](./Array/Next%20Permutation/) | Easy |
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
 
 </details>
