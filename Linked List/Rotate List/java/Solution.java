@@ -18,8 +18,13 @@ class Solution {
             temp = temp.next;
         } 
         ListNode pred = reverse(head);
+        if(k>0){
         ListNode first = get(pred , k,length);
         return first;
+        }
+        else{
+            return pred;
+        }
     }
     public ListNode reverse(ListNode head ){
         if(head == null || head.next == null){
