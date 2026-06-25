@@ -23,7 +23,7 @@ class Solution {
         return first;
         }
         else{
-            return pred;
+            return reverse(head);
         }
     }
     public ListNode reverse(ListNode head ){
