@@ -10,21 +10,18 @@
  */
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
-        if(head == null || head.next == null || k=0) return head;
-        int length =0;
+        if(head == null || head.next == null ) return head;
+        int length =1;
         ListNode temp = head;
         while(temp.next != null){
             length++;
             temp = temp.next;
         } 
+        k = k% length;
+        if(k==0 ) return head;
         ListNode pred = reverse(head);
-        if(k>0){
         ListNode first = get(pred , k,length);
         return first;
-        }
-        else{
-            return reverse(head);
-        }
     }
     public ListNode reverse(ListNode head ){
         if(head == null || head.next == null){
@@ -45,7 +42,6 @@ class Solution {
     }
 
     public ListNode get(ListNode head, int k,int length){
-         k = k% length;
         ListNode first = head;
         ListNode temp = head;
         for(int i =1;i<k;i++){
