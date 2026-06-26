@@ -18,7 +18,6 @@ class Solution {
             temp = temp.next;
         } 
         k = k% length;
-        if(k==0 ) return head;
         ListNode pred = reverse(head);
         ListNode first = get(pred , k,length);
         return first;
