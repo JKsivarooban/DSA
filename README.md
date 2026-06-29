@@ -24,6 +24,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 </details>
 
 
+### Database
+<details>
+<summary>Click to expand Database problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 595 | [Big Countries](./Database/Big%20Countries/) | Easy |
+
+</details>
+
+
 ### General
 <details>
 <summary>Click to expand General problems</summary>
@@ -41,7 +52,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| 12 | [Integer to Roman](./Hash%20Table/Integer%20to%20Roman/) | Medium |
+| 12 | [Integer to Roman](./Hash%20Table/Integer%20to%20Roman/) | Easy |
 
 </details>
 
