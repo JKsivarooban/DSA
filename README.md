@@ -83,6 +83,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 6 | [Zigzag Conversion](./String/Zigzag%20Conversion/) | Medium |
+| 482 | [License Key Formatting](./String/License%20Key%20Formatting/) | Easy |
 
 </details>
 
